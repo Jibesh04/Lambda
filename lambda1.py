@@ -79,7 +79,7 @@ def encode_file_to_base64(file_path):
     return encoded_string
 
 if __name__ == "__main__":
-    file_path = '/home/jibesh/test/decorator-middy-alternative/scripts/data/excel.xlsx'
+    file_path = './excel.xlsx'
     b64_encoded = encode_file_to_base64(file_path)
     event = {
         'body': json.dumps({'file': b64_encoded})
