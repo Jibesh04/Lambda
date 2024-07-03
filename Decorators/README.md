@@ -17,11 +17,11 @@ The lambda_handler function serves as the main entry point. It integrates all de
 
 # Usage
 To use this Lambda function:
-
-## 1. Prepare an Excel File: Encode your Excel file in base64 format. You can use the provided encode_file_to_base64 function to convert your file.
-
-## 2. Invoke the Lambda Function: Construct an event JSON with the base64-encoded file in the request body and invoke the Lambda function.
-
-## 3. Result: The function will return a JSON response containing unique values counts for the specified column in the Excel file.
-
-## 4. Replace the value of file_path variable inside main function with the actual path to your Excel file.
+## 1. Prepare an Excel File:
+Encode your Excel file in base64 format. You can use the provided encode_file_to_base64 function to convert your file.
+## 2. Invoke the Lambda Function:
+Construct an event JSON with the base64-encoded file in the request body and invoke the Lambda function.
+## 3. Result:
+The function will return a JSON response containing unique values counts for the specified column in the Excel file.
+## 4. Modifications:
+Replace the value of file_path variable inside main function with the actual path to your Excel file.
